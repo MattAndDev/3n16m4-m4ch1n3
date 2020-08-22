@@ -8,6 +8,9 @@
   "bin": {
     "enigma-machine": "bin/enigma-machine.js"
   },
+  "repository": {
+    "url": "https://github.com/MattAndDev/enigma-machine"
+  },
   "scripts": {
     "start": "nodemon --watch 'source/**/*.ts' --exec 'ts-node' source/dev.ts",
     "bundle": "npx rollup -c rollup.config.js",
