@@ -10,7 +10,6 @@ export const compute = ({
   rotors: Rotor[]
   char: string
   chars: string[]
-  skipSpace?: boolean
 }): {
   encodedChar: string
   rotors: Rotor[]
