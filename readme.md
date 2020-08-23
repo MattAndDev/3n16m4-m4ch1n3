@@ -1,4 +1,4 @@
-# enigma-machine
+# 3n16m4-m4ch1n3
 
 A modern interpretation of the infamous [enigma machine](https://en.wikipedia.org/wiki/Enigma_machine) not limited by hardware and wiring.
 
@@ -23,8 +23,8 @@ const DEFAULT_PLUGBOARD = null
 You can use the machine in your cli:
 
 ```shell
-npm i -g enigma-machine
-enigma-machine -m "HELLO WORLD"
+npm i -g 3n16m4-m4ch1n3
+3n16m4-m4ch1n3 -m "HELLO WORLD"
 ```
 
 will output: `BIMSUK .VOO`
@@ -32,7 +32,7 @@ will output: `BIMSUK .VOO`
 if you:
 
 ```
-enigma-machine -m "BIMSUK .VOO"
+3n16m4-m4ch1n3 -m "BIMSUK .VOO"
 ```
 
 you'll get: `HELLO WORLD`
@@ -54,7 +54,7 @@ magic ✨
 Example:
 
 ```
-enigma-machine \
+3n16m4-m4ch1n3 \
 -r "1-25 2-12 3-25" \
 -c "qwertyuiopasdfghjklzxcvbnm ." \
 -p "e-l o-h" \
@@ -66,7 +66,7 @@ outputs: `v abuitdyny`
 Of course then:
 
 ```
-enigma-machine \
+3n16m4-m4ch1n3 \
 -r "1-25 2-12 3-25" \
 -c "qwertyuiopasdfghjklzxcvbnm ." \
 -p "e-l o-h" \
@@ -80,7 +80,7 @@ outputs: `hello world`
 The package exports a single function `machine`, you can use it as follows:
 
 ```js
-import { machine } from 'enigma-machine'
+import { machine } from '3n16m4-m4ch1n3'
 
 const { encodedMessage, rotors } = machine({
   message: 'HELLO WORLD',

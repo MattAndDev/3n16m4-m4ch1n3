@@ -1,15 +1,15 @@
 {
-  "name": "enigma-machine",
+  "name": "3n16m4-m4ch1n3",
   "version": "0.0.1",
   "description": "A modern interpretation of the infamous enigma machine",
-  "main": "lib/enigma-machine.commonjs.js",
+  "main": "lib/3n16m4-m4ch1n3.commonjs.js",
   "types": "source/index.ts",
-  "module": "lib/enigma-machine.esm.js",
+  "module": "lib/3n16m4-m4ch1n3.esm.js",
   "bin": {
-    "enigma-machine": "bin/enigma-machine.js"
+    "3n16m4-m4ch1n3": "bin/3n16m4-m4ch1n3.js"
   },
   "repository": {
-    "url": "https://github.com/MattAndDev/enigma-machine"
+    "url": "https://github.com/MattAndDev/3n16m4-m4ch1n3"
   },
   "scripts": {
     "start": "nodemon --watch 'source/**/*.ts' --exec 'ts-node' source/dev.ts",

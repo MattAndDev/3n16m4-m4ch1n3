@@ -17,7 +17,7 @@ const common = {
       exclude: './source/**/*.test.ts',
     }),
     shebang({
-      include: 'bin/enigma-machine.js',
+      include: 'bin/3n16m4-m4ch1n3.js',
     }),
   ],
 }
@@ -28,7 +28,7 @@ export default [
     output: [
       {
         format: 'cjs',
-        file: 'bin/enigma-machine.js',
+        file: 'bin/3n16m4-m4ch1n3.js',
       },
     ],
     ...common,
@@ -38,14 +38,14 @@ export default [
     output: [
       {
         format: 'cjs',
-        file: 'lib/enigma-machine.cjs.js',
+        file: 'lib/3n16m4-m4ch1n3.cjs.js',
       },
       {
-        file: 'lib/enigma-machine.esm.js',
+        file: 'lib/3n16m4-m4ch1n3.esm.js',
         format: 'esm',
       },
       {
-        file: 'lib/enigma-machine.iifee.js',
+        file: 'lib/3n16m4-m4ch1n3.iifee.js',
         format: 'iife',
         name: 'enigma',
         globals: {
