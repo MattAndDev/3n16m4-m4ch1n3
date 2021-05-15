@@ -17,7 +17,7 @@
     "prepublishOnly": "npm run bundle",
     "test": "jest ./source/*",
     "test:watch": "jest --watch ./source/*",
-    "pretty:lint": "prettier ./  --write && eslint ./source --ext .ts --fix"
+    "pretty:lint": "prettier ./**  --write && eslint ./source --ext .ts --fix"
   },
   "keywords": [],
   "devDependencies": {
