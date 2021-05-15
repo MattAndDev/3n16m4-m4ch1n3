@@ -1,6 +1,6 @@
 {
   "name": "3n16m4-m4ch1n3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A modern interpretation of the infamous enigma machine",
   "main": "lib/3n16m4-m4ch1n3.commonjs.js",
   "types": "source/index.ts",
